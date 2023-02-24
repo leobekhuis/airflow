@@ -42,4 +42,4 @@ jobs:
             AIRFLOW_VERSION=2.5.1
             AIRFLOW_EXTRAS=async,celery,cncf.kubernetes,dask,docker,grpc,http,ldap,postgres,redis,statsd,virtualenv
             PYTHON_BASE_IMAGE=python:3.11.2-slim-buster
-            ADDITIONAL_PYTHON_DEPS=pyjanitor==0.22.0 simplejson==3.17.6 glom==22.1.0 pandas-datareader==0.10.0 fastapi==0.70.0 openpyxl==3.0.9 Pillow==9.2.0 sqlparse==0.4.3
+            ADDITIONAL_PYTHON_DEPS=pandas-datareader==0.10.0 sqlparse==0.4.3
