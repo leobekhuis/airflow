@@ -39,7 +39,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            AIRFLOW_VERSION=2.5.1
+            AIRFLOW_VERSION=2.3.2
             AIRFLOW_EXTRAS=celery,cncf.kubernetes,pandas,elasticsearch,docker,grpc,http,postgres,redis,statsd
-            PYTHON_BASE_IMAGE=python:3.11.2-slim-buster
+            PYTHON_BASE_IMAGE=python:3.8-slim-buster
             ADDITIONAL_PYTHON_DEPS=pandas-datareader==0.10.0 sqlparse==0.4.3
